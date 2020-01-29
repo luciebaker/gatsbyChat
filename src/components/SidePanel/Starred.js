@@ -59,7 +59,7 @@ displayChannels = starredChannels => (
             key={channel.id}
             onClick={() => this.changeChannel(channel)}
             name={channel.name}
-            style={{ opacity: 0.7 }}
+            style={{ opacity: 0.9 }}
             active={channel.id === this.state.activeChannel}
         >
             # {channel.name}
